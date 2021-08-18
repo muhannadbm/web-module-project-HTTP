@@ -6,7 +6,7 @@ import FavoriteMovieList from './FavoriteMovieList';
 
 const MovieList = (props)=> {
     const { movies, favoriteMovies } = props;
-
+    console.log('inside movies list', movies)
     return (
         <div className="col">
             <table className="table table-striped table-hover">
